@@ -1,0 +1,15 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TheUltimateProgrammer"
+             xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="TheUltimateProgrammer.About_control"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="450" Background="White">
+    <Grid>
+        <Label x:Name="About" Content="About" Margin="0" Padding="5" Height="65" Width="146" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="backToMainMenu" Content="BACK" HorizontalAlignment="Center" Margin="0,0,0,15" VerticalAlignment="Bottom" Width="122" Height="41" FontFamily="Showcard Gothic" FontSize="26.667" Click="button_Click_1"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="16" Width="302" Height="217"><Run Text="We are three student programmers."/><LineBreak/><Run Text="We wrote this game for "/><Run Text="a "/><Run Text="school project."/><LineBreak/><Run Text="I"/><Run Text="t's our "/><Run Text="first time we write a program in c#."/><LineBreak/><Run/><LineBreak/><Run FontWeight="Bold" Text="Product version: "/><Run Text="0.1 Betá"/><LineBreak/><Run FontWeight="Bold" Text="Git"/><Run FontWeight="Bold" Text="Hub"/><Run Text=": The-Ultimate-Programmer"/><LineBreak/><Run FontWeight="Bold" Text="Creators: "/><LineBreak/><Run Text="   • Feiko Bronsveld"/><LineBreak/><Run Text="   • Kiele"/><LineBreak/><Run Text="   • Sam"/><LineBreak/><Run/></TextBlock>
+    </Grid>
+</UserControl>

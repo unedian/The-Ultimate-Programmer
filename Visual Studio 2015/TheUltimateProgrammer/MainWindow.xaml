@@ -1,0 +1,21 @@
+﻿<Window x:Name="The_Ultimate_Programmer" x:Class="TheUltimateProgrammer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TheUltimateProgrammer"
+        mc:Ignorable="d"
+        Title="The Ultimate Programmer" Height="450" Width="450" MinWidth="450" MinHeight="450" ResizeMode="CanMinimize" >
+    <Window.Background>
+        <ImageBrush ImageSource="background.jpg" Stretch="UniformToFill"/>
+    </Window.Background>
+    <Grid x:Name="mainMenu">
+       <!--
+        <Label x:Name="Titel" Content="The Ultimate Programmer" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,18,0,246" Width="376" Height="55" FontSize="32" Grid.Column="1" Background="Transparent" Foreground="White"/>
+        <Button x:Name="Play_game" Content="Play" HorizontalAlignment="Center" Margin="90,101,92,0" VerticalAlignment="Top" Width="260" Height="63" Click="Play_game_Click"/>
+        <Button x:Name="Help" Content="Help" HorizontalAlignment="Center" Margin="90,170,92,0" VerticalAlignment="Top" Width="260" Height="64"/>
+        <Button x:Name="about" Content="About" HorizontalAlignment="Center" Margin="90,241,92,0" VerticalAlignment="Top" Width="260" Height="62"/>
+        <Button x:Name="quit_game" Content="Quit Game" HorizontalAlignment="Center" Margin="90,310,92,0" VerticalAlignment="Top" Width="260" Height="63" Foreground="#FF020202" Click="quit_game_Click"/> 
+        -->
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="TheUltimateProgrammer.Level"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TheUltimateProgrammer"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="450" Background="White">
+    <Grid VerticalAlignment="Bottom" Height="450" HorizontalAlignment="Right" Width="450">
+        <Label x:Name="test" Content="Level Started" HorizontalAlignment="Left" Margin="41,136,0,0" VerticalAlignment="Top" Padding="5" Height="87" Width="375" FontSize="64"/>
+        <Button x:Name="backToMainMenu" Content="BACK" HorizontalAlignment="Left" Margin="166,244,0,0" VerticalAlignment="Top" Width="122" Height="41" FontFamily="Showcard Gothic" FontSize="26.667" Click="button_Click_1"/>
+    </Grid>
+</UserControl>
